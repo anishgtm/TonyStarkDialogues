@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment12"
+    android:background="#FFAF0B0D">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="104dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ic_play_circle_outline_black_24dp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textColor="#ffe600"
+        android:textSize="16dp"
+        android:text="Tony Stark : Here's a little holiday greeting I've been wanting to send to the Mandarin. I just didn't know how to phrase it until now. My name is Tony Stark, and I'm not afraid of you. I know you're a coward. So I've decided that you just died, pal. I'm gonna come get the body. There's no politics here, it's just good old-fashioned revenge. There's no Pentagon, it's just you and me. And in the off-chance that you're a man, here's my home address. 10, 8, 80 Malibu Point, 90265. I'll leave the door unlocked."
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:layout_marginRight="44dp"
+        android:background="#000000"
+        android:text="back to dialogues"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        >
+    </com.google.android.gms.ads.AdView>
+
+
+
+</android.support.constraint.ConstraintLayout>
